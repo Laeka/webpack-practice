@@ -1,0 +1,15 @@
+/*el punto es un archivo oculto, se usa para a;adir configuraciones(presets y plugins)
+Babel te permite hacer que tu código JavaScript sea compatible con todos los navegadores
+**babel-loader nos permite usar babel con webpack
+**@babel/core es babel en general
+**@babel/preset-env trae y te permite usar las ultimas características de JavaScript
+**@babel/plugin-transform-runtime te permite trabajar con todo el tema de asincronismo como ser async y await
+*/
+{
+  "presets":[
+    "@babel/preset-env"
+  ],
+  "plugins":[
+    "@babel/plugin-transform-runtime"
+  ]
+}
